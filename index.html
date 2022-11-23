@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto banderas</title>
+    <link rel="stylesheet" href="css/style-ejercicio1-resuelto.css">
+</head>
+
+<body>
+
+    <form>
+        <fieldset class="master">
+            <legend>Seleccione la Bandera a Visualizar</legend>
+            <label for="bandera">Seleccionar Bandera:</label>
+            <select name="opciones" id="opciones" onchange="banderas()">
+                <option value="">Seleccione</option>
+                <option value="1">Guatemala</option>
+                <option value="2">India,Nígeria</option>
+                <option value="3">Paises bajos, Francia</option>
+                <option value="4">Suecia</option>
+                <option value="5">Suiza</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <div id="bandera"></div>
+
+</body>
+<script src="js/index.js"></script>
+
+</html>
